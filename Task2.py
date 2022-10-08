@@ -7,7 +7,7 @@ def simple_multy(number):
             lst.append(i)
             number=number/i
         i+=1
-    lst.insert(0,1)   
+    #lst.insert(0,1)   
     return lst
 
 num=int(input('Input a number '))
